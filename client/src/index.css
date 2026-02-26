@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: 'Outfit', sans-serif;
+  --font-display: 'Montserrat', sans-serif;
+
+  /* Base Neutral System (White + Dark Gray) */
+  --background: 0 0% 100%;
+  --foreground: 0 0% 10%;
+  
+  /* Primary Color (Dynamic via CSS Variables) */
+  /* Default: Colorado Red #E30613 */
+  --primary: 0 100% 46%; 
+  --primary-foreground: 0 0% 100%;
+  
+  /* Secondary Color (Dark Gray for contrast) */
+  --secondary: 0 0% 15%; 
+  --secondary-foreground: 0 0% 100%;
+  
+  /* Gradients & Details */
+  --primary-gradient: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary) / 0.8) 100%);
+  
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 16% 47%;
+  
+  --accent: 210 40% 96%;
+  --accent-foreground: 222 47% 11%;
+  
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 98%;
+  
+  --border: 214 32% 91%;
+  --input: 214 32% 91%;
+  --ring: var(--primary);
+  
+  --radius: 0.75rem;
+}
+
+/* Theme Presets */
+[data-theme="colorado"] {
+  --primary: 0 100% 46%; /* Red */
+  --primary-foreground: 0 0% 100%;
+}
+
+[data-theme="liberal"] {
+  --primary: 211 100% 50%; /* Blue */
+  --primary-foreground: 0 0% 100%;
+}
+
+[data-theme="alianza"] {
+  --primary: 24 95% 53%; /* Vibrant Orange #f58220 */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 222 47% 11%; /* Deep Navy for "Credibility" */
+  --secondary-foreground: 0 0% 100%;
+  --accent: 38 92% 50%; /* Golden accent */
+  --accent-foreground: 0 0% 100%;
+  --primary-gradient: linear-gradient(135deg, #f58220 0%, #e67616 100%);
+  --radius: 0.5rem; /* Slightly tighter radius for a more professional look */
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-primary/20 selection:text-primary;
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply tracking-tighter font-black uppercase;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .glass {
+    @apply bg-white/80 backdrop-blur-md border border-white/20;
+  }
+}
