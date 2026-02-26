@@ -1,0 +1,129 @@
+Necesito que ajustes la web creada para convertirla en una página profesional para campaña interna del Partido Colorado en Paraguay, para candidato a Concejal Municipal.
+
+La web debe verse moderna, fuerte, dinámica y adaptada a una campaña territorial real. Debe transmitir:
+
+Liderazgo
+
+Cercanía con los barrios
+
+Trabajo territorial activo
+
+Organización
+
+Lealtad partidaria
+
+Movilización
+
+No es campaña contra otro partido, es interna colorada, por lo tanto el enfoque debe ser diferenciar al candidato dentro del mismo equipo político.
+
+Cambios estratégicos que debe aplicar:
+
+Ajustar el mensaje general:
+
+En vez de hablar de “transformar la ciudad”, enfocar en:
+
+Representar a los vecinos en la Junta Municipal
+
+Impulsar ordenanzas
+
+Defender intereses de los barrios
+
+Fiscalizar y acompañar gestión
+
+Adaptar el tono:
+
+Más territorial
+
+Más cercano
+
+Menos institucional corporativo
+
+Más político moderno
+
+Diseño:
+
+Moderno, visualmente impactante
+
+Estética alineada a campaña política
+
+Uso predominante del rojo de forma elegante y profesional
+
+Botones grandes y llamados a la acción visibles
+
+Animaciones sutiles y modernas
+
+Estructura que debe contener:
+
+Hero Section:
+
+Foto fuerte del candidato
+
+Nombre completo
+
+Cargo: Candidato a Concejal Municipal
+
+Frase política contundente
+
+Botón principal: “Sumate al equipo”
+
+Botón secundario: “Conocé mi compromiso”
+
+Sección “Mi Compromiso”
+
+Explicar claramente cuál es el rol de un concejal
+
+Enfatizar representación y fiscalización
+
+Propuestas realistas para concejal:
+
+Iluminación por barrios
+
+Ordenanzas para seguridad
+
+Apoyo a emprendedores locales
+
+Juventud y deporte
+
+Transparencia en gestión municipal
+Cada propuesta debe incluir:
+
+Problema
+
+Acción concreta desde el rol de concejal
+
+Trabajo Territorial:
+
+Galería o sección tipo “En los barrios”
+
+Mostrar recorridos, reuniones y visitas
+
+Sección de Captación (muy importante):
+
+Título fuerte como:
+“Formá parte del equipo”
+
+Formulario con:
+
+Nombre
+
+Barrio
+
+Teléfono
+
+Mensaje opcional
+
+Botón destacado
+
+Los datos deben almacenarse
+
+Contador dinámico:
+
+Mostrar cantidad de personas que ya se sumaron
+
+Integración con redes sociales
+
+Footer con aviso de privacidad
+
+La web debe estar optimizada para móviles, ya que la mayoría de usuarios ingresará desde celular.
+
+El objetivo principal es movilizar simpatizantes y construir una base organizada de apoyo por barrios.
